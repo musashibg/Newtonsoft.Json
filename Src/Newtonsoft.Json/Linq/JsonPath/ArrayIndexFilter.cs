@@ -4,6 +4,7 @@ using Newtonsoft.Json.Utilities;
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
+    %Meta.Trace
     internal class ArrayIndexFilter : PathFilter
     {
         public int? Index { get; set; }

@@ -31,6 +31,7 @@ using Newtonsoft.Json.Utilities;
 
 namespace Newtonsoft.Json.Bson
 {
+    %Meta.Trace
     internal class BsonBinaryWriter
     {
         private static readonly Encoding Encoding = new UTF8Encoding(false);

@@ -39,6 +39,9 @@
     <CodeAnalysisRuleSet>Newtonsoft.Json.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CSharp.Meta">
+      <HintPath>..\..\Lib\NetFX40\CSharp.Meta.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
@@ -143,6 +146,8 @@
     <Compile Include="Linq\MergeNullValueHandling.cs" />
     <Compile Include="MemberSerialization.cs" />
     <Compile Include="MetadataPropertyHandling.cs" />
+    <Compile Include="Meta\TraceDecorator.cs" />
+    <Compile Include="Meta\TraceMetaclass.cs" />
     <Compile Include="MissingMemberHandling.cs" />
     <Compile Include="NullValueHandling.cs" />
     <Compile Include="ObjectCreationHandling.cs" />

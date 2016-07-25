@@ -90,6 +90,7 @@ namespace Newtonsoft.Json.Utilities
         DBNull = 41
     }
 
+    %Meta.Trace
     internal class TypeInformation
     {
         public Type Type { get; set; }
@@ -104,6 +105,7 @@ namespace Newtonsoft.Json.Utilities
         Invalid = 3
     }
 
+    %Meta.Trace
     internal static class ConvertUtils
     {
         private static readonly Dictionary<Type, PrimitiveTypeCode> TypeCodeMap =
@@ -248,6 +250,7 @@ namespace Newtonsoft.Json.Utilities
 #endif
         }
 
+        %Meta.Trace
         internal struct TypeConvertKey : IEquatable<TypeConvertKey>
         {
             private readonly Type _initialType;

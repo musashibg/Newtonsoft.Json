@@ -34,6 +34,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Represents a JSON constructor.
     /// </summary>
+    %Meta.Trace
     public class JConstructor : JContainer
     {
         private string _name;

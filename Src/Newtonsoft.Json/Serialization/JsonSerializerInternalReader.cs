@@ -49,6 +49,7 @@ using System.Linq;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal class JsonSerializerInternalReader : JsonSerializerInternalBase
     {
         internal enum PropertyPresence

@@ -34,6 +34,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class FSharpFunction
     {
         private readonly object _instance;
@@ -53,6 +54,7 @@ namespace Newtonsoft.Json.Utilities
         }
     }
 
+    %Meta.Trace
     internal static class FSharpUtils
     {
         private static readonly object Lock = new object();

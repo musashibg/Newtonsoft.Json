@@ -34,6 +34,7 @@ namespace Newtonsoft.Json.Converters
     /// <summary>
     /// Converts a <see cref="KeyValuePair{TKey,TValue}"/> to and from JSON.
     /// </summary>
+    %Meta.Trace
     public class KeyValuePairConverter : JsonConverter
     {
         private const string KeyName = "Key";

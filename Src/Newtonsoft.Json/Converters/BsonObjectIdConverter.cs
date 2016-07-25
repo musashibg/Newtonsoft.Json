@@ -33,6 +33,7 @@ namespace Newtonsoft.Json.Converters
     /// <summary>
     /// Converts a <see cref="BsonObjectId"/> to and from JSON and BSON.
     /// </summary>
+    %Meta.Trace
     public class BsonObjectIdConverter : JsonConverter
     {
         /// <summary>

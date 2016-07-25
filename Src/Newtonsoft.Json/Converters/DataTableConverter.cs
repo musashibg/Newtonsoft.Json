@@ -36,6 +36,7 @@ namespace Newtonsoft.Json.Converters
     /// <summary>
     /// Converts a <see cref="DataTable"/> to and from JSON.
     /// </summary>
+    %Meta.Trace
     public class DataTableConverter : JsonConverter
     {
         /// <summary>

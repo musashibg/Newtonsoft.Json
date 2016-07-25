@@ -52,8 +52,10 @@ namespace Newtonsoft.Json
     /// </note>
     /// </summary>
     [Obsolete("JSON Schema validation has been moved to its own package. See http://www.newtonsoft.com/jsonschema for more details.")]
+    %Meta.Trace
     public class JsonValidatingReader : JsonReader, IJsonLineInfo
     {
+        %Meta.Trace
         private class SchemaScope
         {
             private readonly JTokenType _tokenType;

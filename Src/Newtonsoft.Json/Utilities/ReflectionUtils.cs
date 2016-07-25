@@ -81,6 +81,7 @@ namespace Newtonsoft.Json.Utilities
     }
 #endif
 
+    %Meta.Trace
     internal static class ReflectionUtils
     {
         public static readonly Type[] EmptyTypes;

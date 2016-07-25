@@ -30,6 +30,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Compares tokens to determine whether they are equal.
     /// </summary>
+    %Meta.Trace
     public class JTokenEqualityComparer : IEqualityComparer<JToken>
     {
         /// <summary>

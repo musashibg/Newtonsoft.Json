@@ -35,9 +35,11 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Represents a JSON property.
     /// </summary>
+    %Meta.Trace
     public class JProperty : JContainer
     {
         #region JPropertyList
+        %Meta.Trace
         private class JPropertyList : IList<JToken>
         {
             internal JToken _token;

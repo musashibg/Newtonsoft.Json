@@ -42,6 +42,7 @@ namespace Newtonsoft.Json.Converters
 {
     #region XmlNodeWrappers
 #if !DOTNET && !PORTABLE && !PORTABLE40
+    %Meta.Trace
     internal class XmlDocumentWrapper : XmlNodeWrapper, IXmlDocument
     {
         private readonly XmlDocument _document;
@@ -132,6 +133,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XmlElementWrapper : XmlNodeWrapper, IXmlElement
     {
         private readonly XmlElement _element;
@@ -160,6 +162,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XmlDeclarationWrapper : XmlNodeWrapper, IXmlDeclaration
     {
         private readonly XmlDeclaration _declaration;
@@ -188,6 +191,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XmlDocumentTypeWrapper : XmlNodeWrapper, IXmlDocumentType
     {
         private readonly XmlDocumentType _documentType;
@@ -224,6 +228,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XmlNodeWrapper : IXmlNode
     {
         private readonly XmlNode _node;
@@ -406,6 +411,7 @@ namespace Newtonsoft.Json.Converters
 
     #region XNodeWrappers
 #if !NET20
+    %Meta.Trace
     internal class XDeclarationWrapper : XObjectWrapper, IXmlDeclaration
     {
         internal XDeclaration Declaration { get; private set; }
@@ -439,6 +445,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XDocumentTypeWrapper : XObjectWrapper, IXmlDocumentType
     {
         private readonly XDocumentType _documentType;
@@ -475,6 +482,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XDocumentWrapper : XContainerWrapper, IXmlDocument
     {
         private XDocument Document
@@ -592,6 +600,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XTextWrapper : XObjectWrapper
     {
         private XText Text
@@ -624,6 +633,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XCommentWrapper : XObjectWrapper
     {
         private XComment Text
@@ -656,6 +666,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XProcessingInstructionWrapper : XObjectWrapper
     {
         private XProcessingInstruction ProcessingInstruction
@@ -680,6 +691,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XContainerWrapper : XObjectWrapper
     {
         private List<IXmlNode> _childNodes;
@@ -775,6 +787,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XObjectWrapper : IXmlNode
     {
         private static readonly List<IXmlNode> EmptyChildNodes = new List<IXmlNode>();
@@ -832,6 +845,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XAttributeWrapper : XObjectWrapper
     {
         private XAttribute Attribute
@@ -874,6 +888,7 @@ namespace Newtonsoft.Json.Converters
         }
     }
 
+    %Meta.Trace
     internal class XElementWrapper : XContainerWrapper, IXmlElement
     {
         private List<IXmlNode> _attributes;
@@ -976,6 +991,7 @@ namespace Newtonsoft.Json.Converters
     /// <summary>
     /// Converts XML to and from JSON.
     /// </summary>
+    %Meta.Trace
     public class XmlNodeConverter : JsonConverter
     {
         private const string TextName = "#text";

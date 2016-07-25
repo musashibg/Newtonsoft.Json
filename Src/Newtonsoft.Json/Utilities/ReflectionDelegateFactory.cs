@@ -34,6 +34,7 @@ using Newtonsoft.Json.Utilities.LinqBridge;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal abstract class ReflectionDelegateFactory
     {
         public Func<T, object> CreateGet<T>(MemberInfo memberInfo)

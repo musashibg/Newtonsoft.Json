@@ -4,6 +4,7 @@ using Newtonsoft.Json.Utilities;
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
+    %Meta.Trace
     internal class FieldFilter : PathFilter
     {
         public string Name { get; set; }

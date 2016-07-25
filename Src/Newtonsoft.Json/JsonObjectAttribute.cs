@@ -31,6 +31,7 @@ namespace Newtonsoft.Json
     /// Instructs the <see cref="JsonSerializer"/> how to serialize the object.
     /// </summary>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct | AttributeTargets.Interface, AllowMultiple = false)]
+    %Meta.Trace
     public sealed class JsonObjectAttribute : JsonContainerAttribute
     {
         private MemberSerialization _memberSerialization = MemberSerialization.OptOut;

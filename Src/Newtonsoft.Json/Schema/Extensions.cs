@@ -39,6 +39,7 @@ namespace Newtonsoft.Json.Schema
     /// </note>
     /// </summary>
     [Obsolete("JSON Schema validation has been moved to its own package. See http://www.newtonsoft.com/jsonschema for more details.")]
+    %Meta.Trace
     public static class Extensions
     {
         /// <summary>

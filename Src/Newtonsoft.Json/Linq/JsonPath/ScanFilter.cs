@@ -2,6 +2,7 @@ using System.Collections.Generic;
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
+    %Meta.Trace
     internal class ScanFilter : PathFilter
     {
         public string Name { get; set; }

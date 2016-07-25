@@ -53,6 +53,7 @@ using System.Linq;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal struct ResolverContractKey : IEquatable<ResolverContractKey>
     {
         private readonly Type _resolverType;
@@ -94,6 +95,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// Used by <see cref="JsonSerializer"/> to resolves a <see cref="JsonContract"/> for a given <see cref="System.Type"/>.
     /// </summary>
+    %Meta.Trace
     public class DefaultContractResolver : IContractResolver
     {
 #pragma warning disable 612,618
@@ -583,6 +585,7 @@ namespace Newtonsoft.Json.Serialization
 
         // leave as class instead of struct
         // will be always return as an interface and boxed
+        %Meta.Trace
         internal class EnumerableDictionaryWrapper<TEnumeratorKey, TEnumeratorValue> : IEnumerable<KeyValuePair<object, object>>
         {
             private readonly IEnumerable<KeyValuePair<TEnumeratorKey, TEnumeratorValue>> _e;

@@ -31,6 +31,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data.
     /// </summary>
+    %Meta.Trace
     public class JTokenReader : JsonReader, IJsonLineInfo
     {
         private readonly JToken _root;

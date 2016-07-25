@@ -34,6 +34,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// The default serialization binder used when resolving and loading classes from type names.
     /// </summary>
+    %Meta.Trace
     public class DefaultSerializationBinder : SerializationBinder
     {
         internal static readonly DefaultSerializationBinder Instance = new DefaultSerializationBinder();
@@ -96,6 +97,7 @@ namespace Newtonsoft.Json.Serialization
             }
         }
 
+        %Meta.Trace
         internal struct TypeNameKey : IEquatable<TypeNameKey>
         {
             internal readonly string AssemblyName;

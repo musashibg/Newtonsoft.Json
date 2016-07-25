@@ -39,6 +39,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal static class CollectionUtils
     {
         /// <summary>

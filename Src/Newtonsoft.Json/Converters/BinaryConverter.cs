@@ -35,6 +35,7 @@ namespace Newtonsoft.Json.Converters
     /// <summary>
     /// Converts a binary value to and from a base 64 string value.
     /// </summary>
+    %Meta.Trace
     public class BinaryConverter : JsonConverter
     {
 #if !NET20

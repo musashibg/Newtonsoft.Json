@@ -34,11 +34,11 @@ using System.Collections.Generic;
 using Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
-
 #endif
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal static class BufferUtils
     {
         public static char[] RentBuffer(IArrayPool<char> bufferPool, int minSize)
@@ -78,6 +78,7 @@ namespace Newtonsoft.Json.Utilities
         }
     }
 
+    %Meta.Trace
     internal static class JavaScriptUtils
     {
         internal static readonly bool[] SingleQuoteCharEscapeFlags = new bool[128];

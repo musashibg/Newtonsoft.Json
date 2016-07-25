@@ -38,6 +38,7 @@ using System.Linq;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class ReflectionMember
     {
         public Type MemberType { get; set; }
@@ -45,6 +46,7 @@ namespace Newtonsoft.Json.Utilities
         public Action<object, object> Setter { get; set; }
     }
 
+    %Meta.Trace
     internal class ReflectionObject
     {
         public ObjectConstructor<object> Creator { get; private set; }

@@ -78,6 +78,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// Contract details for a <see cref="System.Type"/> used by the <see cref="JsonSerializer"/>.
     /// </summary>
+    %Meta.Trace
     public abstract class JsonContract
     {
         internal bool IsNullable;

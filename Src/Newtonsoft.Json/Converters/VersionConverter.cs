@@ -32,6 +32,7 @@ namespace Newtonsoft.Json.Converters
     /// <summary>
     /// Converts a <see cref="Version"/> to and from a string (e.g. "1.2.3.4").
     /// </summary>
+    %Meta.Trace
     public class VersionConverter : JsonConverter
     {
         /// <summary>

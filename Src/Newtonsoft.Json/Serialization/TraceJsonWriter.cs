@@ -9,6 +9,7 @@ using System.Text;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal class TraceJsonWriter : JsonWriter
     {
         private readonly JsonWriter _innerWriter;

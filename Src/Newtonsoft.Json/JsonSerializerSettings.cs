@@ -36,6 +36,7 @@ namespace Newtonsoft.Json
     /// <summary>
     /// Specifies the settings on a <see cref="JsonSerializer"/> object.
     /// </summary>
+    %Meta.Trace
     public class JsonSerializerSettings
     {
         internal const ReferenceLoopHandling DefaultReferenceLoopHandling = ReferenceLoopHandling.Error;

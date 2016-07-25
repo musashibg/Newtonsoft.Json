@@ -33,6 +33,7 @@ namespace Newtonsoft.Json.Converters
     /// <summary>
     /// Converts a <see cref="DataSet"/> to and from JSON.
     /// </summary>
+    %Meta.Trace
     public class DataSetConverter : JsonConverter
     {
         /// <summary>

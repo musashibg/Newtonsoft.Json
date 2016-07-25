@@ -1,4 +1,4 @@
-﻿{
+{
   "version": "1.0.0-*",
   "title": "Json.NET",
   "description": "Json.NET is a popular high-performance JSON framework for .NET",
@@ -16,6 +16,9 @@
   },
   "frameworks": {
     "net45": {
+      "dependencies": {
+        "CSharp.Meta": "1.0.0-*"
+      },
       "frameworkAssemblies": {
         "System.Data": "",
         "System.Numerics": "",

@@ -39,6 +39,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Contains the LINQ to JSON extension methods.
     /// </summary>
+    %Meta.Trace
     public static class Extensions
     {
         /// <summary>

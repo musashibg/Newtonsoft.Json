@@ -48,6 +48,7 @@ namespace Newtonsoft.Json.Schema
     /// </note>
     /// </summary>
     [Obsolete("JSON Schema validation has been moved to its own package. See http://www.newtonsoft.com/jsonschema for more details.")]
+    %Meta.Trace
     public class JsonSchemaGenerator
     {
         /// <summary>
@@ -75,6 +76,7 @@ namespace Newtonsoft.Json.Schema
             set { _contractResolver = value; }
         }
 
+        %Meta.Trace
         private class TypeSchema
         {
             public Type Type { get; private set; }

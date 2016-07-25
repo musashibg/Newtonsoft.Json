@@ -38,6 +38,7 @@ namespace Newtonsoft.Json.Converters
     /// <summary>
     /// Converts an ExpandoObject to and from JSON.
     /// </summary>
+    %Meta.Trace
     public class ExpandoObjectConverter : JsonConverter
     {
         /// <summary>

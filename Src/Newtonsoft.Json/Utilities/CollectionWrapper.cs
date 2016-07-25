@@ -42,6 +42,7 @@ namespace Newtonsoft.Json.Utilities
         object UnderlyingCollection { get; }
     }
 
+    %Meta.Trace
     internal class CollectionWrapper<T> : ICollection<T>, IWrappedCollection
     {
         private readonly IList _list;

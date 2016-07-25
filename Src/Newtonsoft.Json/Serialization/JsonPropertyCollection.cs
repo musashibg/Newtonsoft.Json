@@ -35,6 +35,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// A collection of <see cref="JsonProperty"/> objects.
     /// </summary>
+    %Meta.Trace
     public class JsonPropertyCollection : KeyedCollection<string, JsonProperty>
     {
         private readonly Type _type;

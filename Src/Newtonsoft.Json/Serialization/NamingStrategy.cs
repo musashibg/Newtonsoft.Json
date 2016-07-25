@@ -3,6 +3,7 @@
     /// <summary>
     /// A base class for resolving how property names and dictionary keys are serialized.
     /// </summary>
+    %Meta.Trace
     public abstract class NamingStrategy
     {
         /// <summary>

@@ -45,6 +45,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Represents a token that can contain other tokens.
     /// </summary>
+    %Meta.Trace
     public abstract class JContainer : JToken, IList<JToken>
 #if !(DOTNET || PORTABLE || PORTABLE40)
         , ITypedList, IBindingList

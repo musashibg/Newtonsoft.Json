@@ -31,6 +31,7 @@ namespace Newtonsoft.Json.Bson
     /// <summary>
     /// Represents a BSON Oid (object id).
     /// </summary>
+    %Meta.Trace
     public class BsonObjectId
     {
         /// <summary>

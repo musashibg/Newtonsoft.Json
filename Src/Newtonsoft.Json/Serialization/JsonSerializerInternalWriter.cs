@@ -46,6 +46,7 @@ using System.Linq;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal class JsonSerializerInternalWriter : JsonSerializerInternalBase
     {
         private Type _rootType;

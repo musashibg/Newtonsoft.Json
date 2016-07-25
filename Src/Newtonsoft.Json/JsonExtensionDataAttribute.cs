@@ -7,6 +7,7 @@ namespace Newtonsoft.Json
     /// and write values during serialization.
     /// </summary>
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Property, AllowMultiple = false)]
+    %Meta.Trace
     public class JsonExtensionDataAttribute : Attribute
     {
         /// <summary>

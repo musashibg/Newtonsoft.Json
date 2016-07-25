@@ -31,6 +31,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Represents a raw JSON string.
     /// </summary>
+    %Meta.Trace
     public class JRaw : JValue
     {
         /// <summary>

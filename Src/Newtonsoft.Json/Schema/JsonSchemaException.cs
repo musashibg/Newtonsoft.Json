@@ -40,6 +40,7 @@ namespace Newtonsoft.Json.Schema
     [Serializable]
 #endif
     [Obsolete("JSON Schema validation has been moved to its own package. See http://www.newtonsoft.com/jsonschema for more details.")]
+    %Meta.Trace
     public class JsonSchemaException : JsonException
     {
         /// <summary>

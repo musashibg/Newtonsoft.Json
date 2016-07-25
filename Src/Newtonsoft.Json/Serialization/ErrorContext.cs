@@ -30,6 +30,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// Provides information surrounding an error.
     /// </summary>
+    %Meta.Trace
     public class ErrorContext
     {
         internal ErrorContext(object originalObject, object member, string path, Exception error)

@@ -9,6 +9,7 @@ using Newtonsoft.Json.Utilities;
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
+    %Meta.Trace
     internal class FieldMultipleFilter : PathFilter
     {
         public List<string> Names { get; set; }

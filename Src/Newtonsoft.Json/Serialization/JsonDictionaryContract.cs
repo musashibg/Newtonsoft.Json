@@ -39,6 +39,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// Contract details for a <see cref="System.Type"/> used by the <see cref="JsonSerializer"/>.
     /// </summary>
+    %Meta.Trace
     public class JsonDictionaryContract : JsonContainerContract
     {
         /// <summary>

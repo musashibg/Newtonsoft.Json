@@ -39,6 +39,7 @@ namespace Newtonsoft.Json
         Constructor = 3
     }
 
+    %Meta.Trace
     internal struct JsonPosition
     {
         private static readonly char[] SpecialCharacters = { '.', ' ', '[', ']', '(', ')' };

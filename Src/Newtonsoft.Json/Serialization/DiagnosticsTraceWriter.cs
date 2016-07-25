@@ -8,6 +8,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// Represents a trace writer that writes to the application's <see cref="TraceListener"/> instances.
     /// </summary>
+    %Meta.Trace
     public class DiagnosticsTraceWriter : ITraceWriter
     {
         /// <summary>

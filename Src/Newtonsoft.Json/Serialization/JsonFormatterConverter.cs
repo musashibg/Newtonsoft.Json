@@ -32,6 +32,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal class JsonFormatterConverter : IFormatterConverter
     {
         private readonly JsonSerializerInternalReader _reader;

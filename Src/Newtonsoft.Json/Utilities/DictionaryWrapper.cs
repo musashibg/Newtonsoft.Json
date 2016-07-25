@@ -42,6 +42,7 @@ namespace Newtonsoft.Json.Utilities
         object UnderlyingDictionary { get; }
     }
 
+    %Meta.Trace
     internal class DictionaryWrapper<TKey, TValue> : IDictionary<TKey, TValue>, IWrappedDictionary
     {
         private readonly IDictionary _dictionary;
@@ -482,6 +483,7 @@ namespace Newtonsoft.Json.Utilities
             }
         }
 
+        %Meta.Trace
         private struct DictionaryEnumerator<TEnumeratorKey, TEnumeratorValue> : IDictionaryEnumerator
         {
             private readonly IEnumerator<KeyValuePair<TEnumeratorKey, TEnumeratorValue>> _e;

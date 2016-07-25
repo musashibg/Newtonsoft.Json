@@ -31,6 +31,7 @@ using Newtonsoft.Json.Utilities;
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
+    %Meta.Trace
     internal class JPath
     {
         private readonly string _expression;

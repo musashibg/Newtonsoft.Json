@@ -29,7 +29,6 @@ using System.Collections.Generic;
 using Newtonsoft.Json.Utilities.LinqBridge;
 #else
 using System.Linq;
-
 #endif
 
 namespace Newtonsoft.Json.Schema
@@ -43,6 +42,7 @@ namespace Newtonsoft.Json.Schema
     /// </note>
     /// </summary>
     [Obsolete("JSON Schema validation has been moved to its own package. See http://www.newtonsoft.com/jsonschema for more details.")]
+    %Meta.Trace
     public class JsonSchemaResolver
     {
         /// <summary>

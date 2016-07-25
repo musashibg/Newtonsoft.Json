@@ -30,6 +30,7 @@ using System.Reflection;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal static class ILGeneratorExtensions
     {
         public static void PushInstance(this ILGenerator generator, Type type)

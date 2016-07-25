@@ -43,6 +43,7 @@ namespace Newtonsoft.Json
     /// <summary>
     /// Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data.
     /// </summary>
+    %Meta.Trace
     public abstract class JsonReader : IDisposable
     {
         /// <summary>

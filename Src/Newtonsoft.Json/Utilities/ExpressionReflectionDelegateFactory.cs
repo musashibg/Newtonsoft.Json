@@ -34,6 +34,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class ExpressionReflectionDelegateFactory : ReflectionDelegateFactory
     {
         private static readonly ExpressionReflectionDelegateFactory _instance = new ExpressionReflectionDelegateFactory();

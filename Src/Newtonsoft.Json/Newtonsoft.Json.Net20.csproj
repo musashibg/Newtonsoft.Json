@@ -71,6 +71,9 @@
     <RunCodeAnalysis>true</RunCodeAnalysis>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CSharp.Meta">
+      <HintPath>..\..\Lib\NetFX20\CSharp.Meta.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -127,6 +130,8 @@
     <Compile Include="Linq\MergeArrayHandling.cs" />
     <Compile Include="Linq\MergeNullValueHandling.cs" />
     <Compile Include="MetadataPropertyHandling.cs" />
+    <Compile Include="Meta\TraceDecorator.cs" />
+    <Compile Include="Meta\TraceMetaclass.cs" />
     <Compile Include="SerializationBinder.cs" />
     <Compile Include="Serialization\CamelCaseNamingStrategy.cs" />
     <Compile Include="Serialization\DefaultNamingStrategy.cs" />

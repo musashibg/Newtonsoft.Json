@@ -39,6 +39,7 @@ namespace Newtonsoft.Json.Linq
     /// Represents a collection of <see cref="JToken"/> objects.
     /// </summary>
     /// <typeparam name="T">The type of token</typeparam>
+    %Meta.Trace
     public struct JEnumerable<T> : IJEnumerable<T>, IEquatable<JEnumerable<T>> where T : JToken
     {
         /// <summary>

@@ -31,6 +31,7 @@ using Newtonsoft.Json.Utilities;
 namespace Newtonsoft.Json.Schema
 {
     [Obsolete("JSON Schema validation has been moved to its own package. See http://www.newtonsoft.com/jsonschema for more details.")]
+    %Meta.Trace
     internal class JsonSchemaModel
     {
         public bool Required { get; set; }

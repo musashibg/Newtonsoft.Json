@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace Newtonsoft.Json.Linq.JsonPath
 {
+    %Meta.Trace
     internal class QueryFilter : PathFilter
     {
         public QueryExpression Expression { get; set; }

@@ -36,6 +36,7 @@ using System.Globalization;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class DynamicReflectionDelegateFactory : ReflectionDelegateFactory
     {
         public static DynamicReflectionDelegateFactory Instance = new DynamicReflectionDelegateFactory();

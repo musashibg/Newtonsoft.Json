@@ -5,6 +5,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// A camel case naming strategy.
     /// </summary>
+    %Meta.Trace
     public class CamelCaseNamingStrategy : NamingStrategy
     {
         /// <summary>

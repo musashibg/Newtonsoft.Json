@@ -29,6 +29,7 @@ using System.Globalization;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal class DefaultReferenceResolver : IReferenceResolver
     {
         private int _referenceCount;

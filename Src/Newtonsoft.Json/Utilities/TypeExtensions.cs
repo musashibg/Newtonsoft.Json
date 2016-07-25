@@ -34,6 +34,7 @@ using System.Linq;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal static class TypeExtensions
     {
 #if DOTNET || PORTABLE

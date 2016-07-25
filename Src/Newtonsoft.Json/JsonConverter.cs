@@ -34,6 +34,7 @@ namespace Newtonsoft.Json
     /// <summary>
     /// Converts an object to and from JSON.
     /// </summary>
+    %Meta.Trace
     public abstract class JsonConverter
     {
         /// <summary>

@@ -38,6 +38,7 @@ namespace Newtonsoft.Json
 #if !(DOTNET || PORTABLE40 || PORTABLE)
     [Serializable]
 #endif
+    %Meta.Trace
     public class JsonException : Exception
     {
         /// <summary>

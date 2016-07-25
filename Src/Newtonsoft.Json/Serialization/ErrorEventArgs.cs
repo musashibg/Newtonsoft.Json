@@ -30,6 +30,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// Provides data for the Error event.
     /// </summary>
+    %Meta.Trace
     public class ErrorEventArgs : EventArgs
     {
         /// <summary>

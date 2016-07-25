@@ -5,6 +5,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Specifies the settings used when loading JSON.
     /// </summary>
+    %Meta.Trace
     public class JsonLoadSettings
     {
         private CommentHandling _commentHandling;

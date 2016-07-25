@@ -32,6 +32,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Represents a view of a <see cref="JProperty"/>.
     /// </summary>
+    %Meta.Trace
     public class JPropertyDescriptor : PropertyDescriptor
     {
         /// <summary>

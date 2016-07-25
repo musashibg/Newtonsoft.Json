@@ -1,3 +1,9 @@
+This is fork of the official Newtonsoft.Json repository, where the code is instrumented with tracing logic through the use of metaprogramming constructs.
+
+This is meant to serve as an evaluation sample for the proposed C# language extension implemented in [https://github.com/musashibg/roslyn/tree/decorators/](https://github.com/musashibg/roslyn/tree/decorators/).
+
+
+
 #![Logo](Doc/icons/logo.jpg) Json.NET#
 
 - [Homepage](http://www.newtonsoft.com/json)

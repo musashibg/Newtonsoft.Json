@@ -36,6 +36,7 @@ using System.Linq;
 namespace Newtonsoft.Json.Schema
 {
     [Obsolete("JSON Schema validation has been moved to its own package. See http://www.newtonsoft.com/jsonschema for more details.")]
+    %Meta.Trace
     internal class JsonSchemaNode
     {
         public string Id { get; private set; }

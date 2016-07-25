@@ -27,6 +27,7 @@ using System;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal struct StringReference
     {
         private readonly char[] _chars;
@@ -66,6 +67,7 @@ namespace Newtonsoft.Json.Utilities
         }
     }
 
+    %Meta.Trace
     internal static class StringReferenceExtensions
     {
         public static int IndexOf(this StringReference s, char c, int startIndex, int length)

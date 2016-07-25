@@ -51,6 +51,7 @@ namespace Newtonsoft.Json.Linq
     /// <summary>
     /// Represents an abstract JSON token.
     /// </summary>
+    %Meta.Trace
     public abstract class JToken : IJEnumerable<JToken>, IJsonLineInfo
 #if !(DOTNET || PORTABLE40 || PORTABLE)
         , ICloneable
@@ -2230,6 +2231,7 @@ namespace Newtonsoft.Json.Linq
             SetLineInfo(lineInfo.LineNumber, lineInfo.LinePosition);
         }
 
+        %Meta.Trace
         private class LineInfoAnnotation
         {
             internal readonly int LineNumber;

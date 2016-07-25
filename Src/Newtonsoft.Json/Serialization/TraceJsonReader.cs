@@ -6,6 +6,7 @@ using System.Text;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal class TraceJsonReader : JsonReader, IJsonLineInfo
     {
         private readonly JsonReader _innerReader;

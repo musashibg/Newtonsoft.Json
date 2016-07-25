@@ -36,6 +36,7 @@ using System.Reflection;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal static class EnumUtils
     {
         private static readonly ThreadSafeStore<Type, BidirectionalDictionary<string, string>> EnumMemberNamesPerType = new ThreadSafeStore<Type, BidirectionalDictionary<string, string>>(InitializeEnumType);

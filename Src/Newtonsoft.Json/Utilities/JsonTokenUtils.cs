@@ -28,6 +28,7 @@ using System.Text;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal static class JsonTokenUtils
     {
         internal static bool IsEndToken(JsonToken token)

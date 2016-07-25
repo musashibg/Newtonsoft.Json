@@ -33,6 +33,7 @@ using System.Reflection;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal sealed class DynamicProxyMetaObject<T> : DynamicMetaObject
     {
         private readonly DynamicProxy<T> _proxy;
@@ -409,6 +410,7 @@ namespace Newtonsoft.Json.Utilities
         // is only used by DynamicObject.GetMember--it is not expected to
         // (and cannot) implement binding semantics. It is just so the DO
         // can use the Name and IgnoreCase properties.
+        %Meta.Trace
         private sealed class GetBinderAdapter : GetMemberBinder
         {
             internal GetBinderAdapter(InvokeMemberBinder binder) :

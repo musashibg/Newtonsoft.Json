@@ -42,6 +42,7 @@ using System.Runtime.Serialization;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal static class JsonTypeReflector
     {
         private static bool? _dynamicCodeGeneration;

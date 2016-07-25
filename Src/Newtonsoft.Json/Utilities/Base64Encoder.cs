@@ -28,6 +28,7 @@ using System.IO;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class Base64Encoder
     {
         private const int Base64LineSize = 76;

@@ -30,6 +30,7 @@ namespace Newtonsoft.Json.Utilities
     /// <summary>
     /// Builds a string. Unlike StringBuilder this class lets you reuse it's internal buffer.
     /// </summary>
+    %Meta.Trace
     internal struct StringBuffer
     {
         private char[] _buffer;

@@ -30,6 +30,7 @@ using System.Globalization;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal static class DateTimeUtils
     {
         internal static readonly long InitialJavaScriptDateTicks = 621355968000000000;

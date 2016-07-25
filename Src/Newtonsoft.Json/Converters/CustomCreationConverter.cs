@@ -33,6 +33,7 @@ namespace Newtonsoft.Json.Converters
     /// Create a custom object
     /// </summary>
     /// <typeparam name="T">The object type to convert.</typeparam>
+    %Meta.Trace
     public abstract class CustomCreationConverter<T> : JsonConverter
     {
         /// <summary>

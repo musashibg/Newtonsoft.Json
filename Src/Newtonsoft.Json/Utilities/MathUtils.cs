@@ -29,6 +29,7 @@ using System.Text;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal static class MathUtils
     {
         public static int IntLength(ulong i)

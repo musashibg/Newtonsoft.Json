@@ -33,6 +33,7 @@ using Newtonsoft.Json.Utilities.LinqBridge;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class LateBoundReflectionDelegateFactory : ReflectionDelegateFactory
     {
         private static readonly LateBoundReflectionDelegateFactory _instance = new LateBoundReflectionDelegateFactory();

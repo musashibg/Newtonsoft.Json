@@ -29,6 +29,7 @@ using System.Globalization;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class BidirectionalDictionary<TFirst, TSecond>
     {
         private readonly IDictionary<TFirst, TSecond> _firstToSecond;

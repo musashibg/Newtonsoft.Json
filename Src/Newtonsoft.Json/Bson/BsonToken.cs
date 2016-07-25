@@ -28,6 +28,7 @@ using System.Collections.Generic;
 
 namespace Newtonsoft.Json.Bson
 {
+    %Meta.Trace
     internal abstract class BsonToken
     {
         public abstract BsonType Type { get; }
@@ -35,6 +36,7 @@ namespace Newtonsoft.Json.Bson
         public int CalculatedSize { get; set; }
     }
 
+    %Meta.Trace
     internal class BsonObject : BsonToken, IEnumerable<BsonProperty>
     {
         private readonly List<BsonProperty> _children = new List<BsonProperty>();
@@ -61,6 +63,7 @@ namespace Newtonsoft.Json.Bson
         }
     }
 
+    %Meta.Trace
     internal class BsonArray : BsonToken, IEnumerable<BsonToken>
     {
         private readonly List<BsonToken> _children = new List<BsonToken>();
@@ -87,6 +90,7 @@ namespace Newtonsoft.Json.Bson
         }
     }
 
+    %Meta.Trace
     internal class BsonValue : BsonToken
     {
         private readonly object _value;
@@ -109,6 +113,7 @@ namespace Newtonsoft.Json.Bson
         }
     }
 
+    %Meta.Trace
     internal class BsonString : BsonValue
     {
         public int ByteCount { get; set; }
@@ -121,6 +126,7 @@ namespace Newtonsoft.Json.Bson
         }
     }
 
+    %Meta.Trace
     internal class BsonBinary : BsonValue
     {
         public BsonBinaryType BinaryType { get; set; }
@@ -132,6 +138,7 @@ namespace Newtonsoft.Json.Bson
         }
     }
 
+    %Meta.Trace
     internal class BsonRegex : BsonToken
     {
         public BsonString Pattern { get; set; }
@@ -149,6 +156,7 @@ namespace Newtonsoft.Json.Bson
         }
     }
 
+    %Meta.Trace
     internal class BsonProperty
     {
         public BsonString Name { get; set; }

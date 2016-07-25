@@ -32,6 +32,7 @@ namespace Newtonsoft.Json
     /// Instructs the <see cref="JsonSerializer"/> how to serialize the object.
     /// </summary>
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Interface, AllowMultiple = false)]
+    %Meta.Trace
     public abstract class JsonContainerAttribute : Attribute
     {
         /// <summary>

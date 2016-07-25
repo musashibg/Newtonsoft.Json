@@ -23,8 +23,10 @@
 // OTHER DEALINGS IN THE SOFTWARE.
 #endregion
 
+
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class EnumValue<T> where T : struct
     {
         private readonly string _name;

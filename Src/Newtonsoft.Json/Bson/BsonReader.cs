@@ -37,6 +37,7 @@ namespace Newtonsoft.Json.Bson
     /// <summary>
     /// Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data.
     /// </summary>
+    %Meta.Trace
     public class BsonReader : JsonReader
     {
         private const int MaxCharBytesSize = 128;
@@ -72,6 +73,7 @@ namespace Newtonsoft.Json.Bson
             CodeWScopeScopeEnd = 8
         }
 
+        %Meta.Trace
         private class ContainerContext
         {
             public readonly BsonType Type;

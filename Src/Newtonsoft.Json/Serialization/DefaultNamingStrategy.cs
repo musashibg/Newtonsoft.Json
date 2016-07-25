@@ -1,8 +1,10 @@
-﻿namespace Newtonsoft.Json.Serialization
+﻿
+namespace Newtonsoft.Json.Serialization
 {
     /// <summary>
     /// The default naming strategy. Property names and dictionary keys are unchanged.
     /// </summary>
+    %Meta.Trace
     public class DefaultNamingStrategy : NamingStrategy
     {
         /// <summary>

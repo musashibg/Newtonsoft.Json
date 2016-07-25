@@ -35,6 +35,7 @@ namespace Newtonsoft.Json.Utilities
 {
     internal delegate T Creator<T>();
 
+    %Meta.Trace
     internal static class MiscellaneousUtils
     {
         public static bool ValueEquals(object objA, object objB)

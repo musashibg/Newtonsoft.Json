@@ -33,6 +33,7 @@ using System.Text;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class DynamicProxy<T>
     {
         public virtual IEnumerable<string> GetDynamicMemberNames(T instance)

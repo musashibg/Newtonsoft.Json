@@ -31,8 +31,10 @@ using Newtonsoft.Json.Utilities;
 
 namespace Newtonsoft.Json.Serialization
 {
+    %Meta.Trace
     internal abstract class JsonSerializerInternalBase
     {
+        %Meta.Trace
         private class ReferenceEqualsEqualityComparer : IEqualityComparer<object>
         {
             bool IEqualityComparer<object>.Equals(object x, object y)

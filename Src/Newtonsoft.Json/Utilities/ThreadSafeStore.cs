@@ -33,6 +33,7 @@ using Newtonsoft.Json.Serialization;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class ThreadSafeStore<TKey, TValue>
     {
         private readonly object _lock = new object();

@@ -52,6 +52,7 @@ namespace Newtonsoft.Json.Linq
     /// <example>
     ///   <code lang="cs" source="..\Src\Newtonsoft.Json.Tests\Documentation\LinqToJsonTests.cs" region="LinqToJsonCreateParse" title="Parsing a JSON Object from Text" />
     /// </example>
+    %Meta.Trace
     public class JObject : JContainer, IDictionary<string, JToken>, INotifyPropertyChanged
 #if !(DOTNET || PORTABLE40 || PORTABLE)
         , ICustomTypeDescriptor
@@ -877,6 +878,7 @@ namespace Newtonsoft.Json.Linq
             return new DynamicProxyMetaObject<JObject>(parameter, this, new JObjectDynamicProxy(), true);
         }
 
+        %Meta.Trace
         private class JObjectDynamicProxy : DynamicProxy<JObject>
         {
             public override bool TryGetMember(JObject instance, GetMemberBinder binder, out object result)

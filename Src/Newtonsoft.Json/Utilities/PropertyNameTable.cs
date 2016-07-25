@@ -27,6 +27,7 @@ using System;
 
 namespace Newtonsoft.Json.Utilities
 {
+    %Meta.Trace
     internal class PropertyNameTable
     {
         // used to defeat hashtable DoS attack where someone passes in lots of strings that hash to the same hash code
@@ -156,6 +157,7 @@ namespace Newtonsoft.Json.Utilities
             return true;
         }
 
+        %Meta.Trace
         private class Entry
         {
             internal readonly string Value;

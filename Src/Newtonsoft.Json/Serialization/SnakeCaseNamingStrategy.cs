@@ -5,6 +5,7 @@ namespace Newtonsoft.Json.Serialization
     /// <summary>
     /// A snake case naming strategy.
     /// </summary>
+    %Meta.Trace
     public class SnakeCaseNamingStrategy : NamingStrategy
     {
         /// <summary>

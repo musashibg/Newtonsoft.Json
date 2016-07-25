@@ -20,6 +20,7 @@ namespace Newtonsoft.Json.Linq.JsonPath
         Or = 9
     }
 
+    %Meta.Trace
     internal abstract class QueryExpression
     {
         public QueryOperator Operator { get; set; }
@@ -27,6 +28,7 @@ namespace Newtonsoft.Json.Linq.JsonPath
         public abstract bool IsMatch(JToken t);
     }
 
+    %Meta.Trace
     internal class CompositeExpression : QueryExpression
     {
         public List<QueryExpression> Expressions { get; set; }
@@ -64,6 +66,7 @@ namespace Newtonsoft.Json.Linq.JsonPath
         }
     }
 
+    %Meta.Trace
     internal class BooleanQueryExpression : QueryExpression
     {
         public List<PathFilter> Path { get; set; }

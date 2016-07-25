@@ -35,6 +35,7 @@ namespace Newtonsoft.Json.Utilities
         LocalEastOfUtc = 3
     }
 
+    %Meta.Trace
     internal struct DateTimeParser
     {
         static DateTimeParser()
