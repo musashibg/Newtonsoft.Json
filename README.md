@@ -1,6 +1,8 @@
-This is fork of the official Newtonsoft.Json repository, where the code is instrumented with tracing logic through the use of metaprogramming constructs.
+#Json.NET instrumented with tracing#
 
-This is meant to serve as an evaluation sample for the proposed C# language extension implemented in [https://github.com/musashibg/roslyn/tree/decorators/](https://github.com/musashibg/roslyn/tree/decorators/).
+This is a fork of the official Newtonsoft.Json repository, where the code is instrumented with tracing logic through the use of metaprogramming constructs.
+
+This fork is meant to serve as an evaluation sample for the proposed C# language extension implemented in [https://github.com/musashibg/roslyn/tree/decorators/](https://github.com/musashibg/roslyn/tree/decorators/).
 
 
 
