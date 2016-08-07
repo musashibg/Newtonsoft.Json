@@ -52,10 +52,10 @@ namespace Newtonsoft.Json.TestConsole
             //PerformanceTests t = new PerformanceTests();
             //t.DeserializeLargeJson();
 
-            //PerformanceTests t = new PerformanceTests();
-            LargeArrayJTokenPathPerformance();
-            //t.Iterations = 50000;
-            //t.BenchmarkDeserializeMethod<TestClass>(PerformanceTests.SerializeMethod.JsonNet, PerformanceTests.JsonText);
+            PerformanceTests t = new PerformanceTests();
+            //LargeArrayJTokenPathPerformance();
+            t.Iterations = 1000;
+            t.BenchmarkDeserializeMethod<TestClass>(PerformanceTests.SerializeMethod.JsonNet, PerformanceTests.JsonText);
 
             //Console.WriteLine("Wait to do stuff again");
             //Console.ReadKey();
