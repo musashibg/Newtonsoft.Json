@@ -47,7 +47,7 @@ namespace Newtonsoft.Json.Meta
                 var argumentStrings = new string[parameterCount];
                 for (int i = 0; i < parameterCount; i++)
                 {
-                    argumentStrings[i] = arguments[i]?.ToString() ?? "<null>";
+                    argumentStrings[i] = arguments[i].ToString();
                 }
                 constructorDescription = string.Format(
                     CultureInfo.InvariantCulture,
@@ -80,7 +80,7 @@ namespace Newtonsoft.Json.Meta
                 var argumentStrings = new string[parameterCount];
                 for (int i = 0; i < parameterCount; i++)
                 {
-                    argumentStrings[i] = arguments[i]?.ToString() ?? "<null>";
+                    argumentStrings[i] = arguments[i].ToString();
                 }
                 methodDescription = string.Format(
                     CultureInfo.InvariantCulture,
@@ -121,7 +121,7 @@ namespace Newtonsoft.Json.Meta
             var argumentStrings = new string[parameterCount];
             for (int i = 0; i < parameterCount; i++)
             {
-                argumentStrings[i] = arguments[i]?.ToString() ?? "<null>";
+                argumentStrings[i] = arguments[i].ToString();
             }
             indexerDescription = string.Format(
                 CultureInfo.InvariantCulture,
@@ -155,9 +155,9 @@ namespace Newtonsoft.Json.Meta
             var argumentStrings = new string[parameterCount + 1];
             for (int i = 0; i < parameterCount; i++)
             {
-                argumentStrings[i] = arguments[i]?.ToString() ?? "<null>";
+                argumentStrings[i] = arguments[i].ToString();
             }
-            argumentStrings[parameterCount] = value?.ToString() ?? "<null>";
+            argumentStrings[parameterCount] = value.ToString();
             indexerDescription = string.Format(
                 CultureInfo.InvariantCulture,
                 "{0}.this.set({1})",
